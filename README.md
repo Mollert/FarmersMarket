@@ -1,2 +1,1 @@
-# FarmersMarket
-website for local farmers market
+Started this with some ideas to create multipy page website for local small farmers market.

@@ -1,0 +1,62 @@
+
+#userName,
+#passWord,
+#getList,
+#logout {
+	font-size: 14px;
+	padding: 6px;
+	margin: 16px;
+}
+
+#greeting,
+#placeList {
+	font-size: 20px;
+}
+
+li.entry {
+	font-size: 20px;
+	margin-left: 30px;	
+}
+
+#offeringNote,
+#ourVegetables,
+#ourCannedGoods {
+	font-size: 20px;	
+}
+
+ul#vegList,
+ul#cannedList,
+ul#yourList {
+	list-style-type: none;
+}
+
+li.listItem {
+	font-size: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: green;
+	border-radius: 8px;
+	padding: 8px 30px 8px 30px;	
+	margin-bottom: 10px;
+	margin-right: 40px;
+}
+
+.vegImage,
+.canImage,
+.listImage {
+	padding-right: 14px;
+}
+
+.vegBtn,
+.canBtn {
+	font-size: 16px;
+	float: right;
+	padding: 4px 10px 4px 10px;
+	margin-right: 10px;
+	background-color: lightgreen;
+	border-radius: 6px;
+}
+
+.listImage:hover {
+	opacity: 0.5;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Front Page Collage</title>
+	<!-- favicon -->
+	<link rel="icon" href="image/tomatofavicon.ico" type="image/ico"/>
+	
+	<link rel="stylesheet" type="text/css" href="cssNavigate.css">
+	<link rel="stylesheet" type="text/css" href="cssCollage.css">
+	
+</head>
+<body>
+
+	<div class="totalBar">
+			<div class="farm"><a href="./htmlFarm.html">See our Farms</a></div>
+			<div class="list"><a href="./htmlList.html">Make a List</a></div>
+			<div class="blog"><a href="./htmlBlog.html">Write a Blog Post</a></div>
+	</div>
+	
+	<div class="totalCollage">
+		<div class="theCenter">
+			<p id="whoWeAre">Here's a little piece of Newell Farmers Market</p>
+			<p id="whereWeAre">1704 Rocky River Road</p>
+			<p id="whenWeAre">Open Saturday's @ 9AM</p>			
+			<div id="map"></div>
+		</div>
+		<img src="./image/markets/fmA.png" id="fmA" class="pics"/>
+		<img src="./image/markets/fmB.png" id="fmB" class="pics"/>
+		<img src="./image/markets/fmC.png" id="fmC" class="pics"/>
+		<img src="./image/markets/fmD.png" id="fmD" class="pics"/>
+		<img src="./image/markets/fmE.png" id="fmE" class="pics"/>
+		<img src="./image/markets/fmF.png" id="fmF" class="pics"/>
+		<img src="./image/markets/fmG.png" id="fmG" class="pics"/>
+		<img src="./image/markets/fmH.png" id="fmH" class="pics"/>
+		<img src="./image/markets/fmI.png" id="fmI" class="pics"/>
+		<img src="./image/markets/fmJ.png" id="fmJ" class="pics"/>
+	</div>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUhuc431AChFbfphSEFZ75FAwcdPIVPTU&callback=initMap" async defer></script>
+
+	<script>
+		function initMap() {
+			var uluru = {lat: 35.2795, lng: -80.7355};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 13,
+				center: {lat: 35.297, lng: -80.749}
+		});
+		var marker = new google.maps.Marker({
+			position: uluru,
+			map: map,
+			icon: "image/carrot-pin.png"
+		});
+		};
+	</script>
+
+<!--center: uluru-->
+
+</body>
+</html>
