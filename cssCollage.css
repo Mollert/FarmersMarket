@@ -1,12 +1,13 @@
 body {
 	background-color: lightgreen;
+	margin: 0px;
 }
 
 .totalCollage {
 	position: relative;
 	margin: 0 auto;
 	width: 560px;
-	margin-top: 200px;
+	margin-top: 220px;
 	z-index: 1;
 }
 
@@ -113,6 +114,38 @@ body {
 }
 
 @media only screen and (max-width: 786px) {
+	.totalCollage {
+		width: 460px;
+	}
+	#map {
+		margin-left: 40px;
+	}
+	#fmA {
+		left: -160px;
+	}
+	#fmB {
+		left: -155px;
+	}
+	#fmD {
+		left: 145px;
+	}
+	#fmE {
+		left: 315px;
+	}
+	#fmF {
+		left: 320px;
+	}
+	#fmG {
+		left: 315px;
+	}
+	#fmH {
+		left: 145px;
+	}
+	#fmJ {
+		left: -155px;
+	}
+
+
 }
 
 @media only screen and (max-width: 640px) {
