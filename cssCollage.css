@@ -110,10 +110,7 @@ body {
 	z-index: 2;
 }
 
-@media only screen and (max-width: 980px) {
-}
-
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 780px) {
 	.totalCollage {
 		width: 460px;
 	}
@@ -144,10 +141,46 @@ body {
 	#fmJ {
 		left: -155px;
 	}
-
-
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 420px) {
+	.totalCollage {
+		width: 360px;
+	}
+	.theCenter p {
+	font-size: 16px;
+	}
+	#map {
+	width: 300px;
+	height: 300px;
+	margin-left: 20px;
+	}
 }
 
+@media only screen and (max-width: 380px) {
+	.totalCollage {
+		width: 320px;
+	}
+	.theCenter p {
+	font-size: 14px;
+	}
+	#map {
+	width: 270px;
+	height: 270px;
+	margin-left: 15px;
+	}
+}
+
+@media only screen and (max-width: 326px) {
+	.totalCollage {
+		width: 260px;
+	}
+	.theCenter p {
+	font-size: 12px;
+	}
+	#map {
+	width: 220px;
+	height: 220px;
+	margin-left: 10px;
+	}
+}
