@@ -28,6 +28,7 @@ body {
 	position: absolute;
 	width: 100%;
 	height: 100%;
+	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 	-webkit-transition: all 1.0s linear;	
 	-moz-transition: all 1.0s linear;
@@ -49,6 +50,7 @@ body {
 	width: 100%;
 	height: 100%;
 	background: #DEB887;
+	-webkit-backface-visibility : hidden;
 	backface-visibility : hidden;
 	border-style: solid;
 	border-width: 5px;
@@ -68,6 +70,7 @@ body {
 	width: 100%;
 	height: 100%;
 	background: #228B22;
+	-webkit-backface-visibility : hidden;	
 	backface-visibility : hidden;
 	transform: rotateY(180deg);
 	-ms-transform: rotateY(180deg);	
