@@ -1,27 +1,58 @@
+.totalBar {
+	margin-left: 20px;
+	display: flex;
+}
+
+.collage,
+.farm {
+	font-size: 20px;	
+	flex: 1;
+}
+
+.blog {
+	font-size: 20px;
+	flex: 4;
+}
 
 #userName,
 #passWord,
-#getList,
-#logout {
-	font-size: 14px;
+.inputs {
+	display: inline;
+}
+
+label {
+	font-size: 18px;
+}
+
+#userName,
+#passWord {
+	font-size: 18px;
 	padding: 6px;
 	margin: 16px;
 }
 
+#getList,
+#logout {
+	font-size: 16px;
+	padding: 10px;
+	margin: 6px 16px 6px 16px;
+	border-radius: 6px;	
+}
+
 #greeting,
 #placeList {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 li.entry {
-	font-size: 20px;
+	font-size: 18px;
 	margin-left: 30px;	
 }
 
 #offeringNote,
 #ourVegetables,
 #ourCannedGoods {
-	font-size: 20px;	
+	font-size: 18px;	
 }
 
 ul#vegList,
@@ -49,7 +80,7 @@ li.listItem {
 
 .vegBtn,
 .canBtn {
-	font-size: 16px;
+	font-size: 14px;
 	float: right;
 	padding: 4px 10px 4px 10px;
 	margin-right: 10px;
@@ -59,4 +90,24 @@ li.listItem {
 
 .listImage:hover {
 	opacity: 0.5;
+}
+
+@media only screen and (max-width: 1100px) {
+	.inputs {
+		display: block;
+	}	
+}
+
+@media only screen and (max-width: 820px) {
+	.totalBar {
+		margin-left: 2px;
+		margin-bottom: 16px;
+	}
+	.blog {
+		flex: 1;
+	}
+	#userName,
+	#passWord {
+		display: block;
+	}
 }

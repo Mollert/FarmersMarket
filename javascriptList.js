@@ -1,6 +1,6 @@
 
 $(window).on("load", function() {
-	$('#offeringNote').append(`Here is our offering for the week ending in Saturday the ${satNum}${end}.`);	
+	$('#offeringNote').append(`Here is our offering for the week ending on Saturday the ${satNum}${end}.`);	
 
 	$('#ourVegetables').append('Our Vegetables:');
 	vegetables.forEach((item) => {

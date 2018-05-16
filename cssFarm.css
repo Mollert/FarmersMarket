@@ -1,7 +1,22 @@
-
 body {
 	background-color: lightgreen;
 	margin: 0px;
+}
+
+.totalBar {
+	margin-left: 20px;
+	display: flex;
+}
+
+.collage,
+.list {
+	font-size: 20px;	
+	flex: 1;
+}
+
+.blog {
+	font-size: 20px;
+	flex: 4;
 }
 
 #greeting {
@@ -84,4 +99,13 @@ body {
 	text-align: center;
 	margin-left: 26px;
 	margin-right: 26px;
+}
+
+@media only screen and (max-width: 800px) {
+	.totalBar {
+		margin-left: 2px;
+	}
+	.blog {
+		flex: 1;
+	}
 }

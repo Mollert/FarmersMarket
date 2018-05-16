@@ -3,6 +3,22 @@ body {
 	margin: 0px;
 }
 
+.totalBar {
+	margin-left: 20px;
+	display: flex;
+}
+
+.farm,
+.list {
+	font-size: 20px;	
+	flex: 1;
+}
+
+.blog {
+	font-size: 20px;
+	flex: 4;
+}
+
 .totalCollage {
 	position: relative;
 	margin: 0 auto;
@@ -108,6 +124,15 @@ body {
 	transform: rotate(0deg);
 	transition-duration: 0.4s;
 	z-index: 2;
+}
+
+@media only screen and (max-width: 800px) {
+	.totalBar {
+		margin-left: 2px;
+	}
+	.blog {
+		flex: 1;
+	}
 }
 
 @media only screen and (max-width: 780px) {
